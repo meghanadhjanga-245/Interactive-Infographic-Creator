@@ -20,7 +20,8 @@ Built with **pure HTML, CSS, and JavaScript** — no frameworks, no build tools,
 
 
 ### Light mode
-![Light mode](screenshots/light-mode.png)
+![Light mode](<img width="1910" height="994" alt="Screenshot 2026-01-29 020215" src="https://github.com/user-attachments/assets/c6a9640a-bc8a-438d-8916-160d6a75486b" />
+)
 
 ### Dark mode with elements
 ![Dark mode](screenshots/dark-mode.png)
