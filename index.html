@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Infographic Creator</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Interactive Infographic Creator</h1>
+    <div>
+      <button id="toggleTheme">🌙</button>
+      <button id="aiSuggest">AI Optimize</button>
+      <button id="exportPNG">Export PNG</button>
+      <button id="clearCanvas">Clear</button>
+    </div>
+  </header>
+
+  <main>
+
+    <aside class="toolbar">
+      <h3>Elements</h3>
+      <button draggable="true" data-type="text">Text</button>
+      <button draggable="true" data-type="bar">Bar Chart</button>
+      <button draggable="true" data-type="pie">Pie Chart</button>
+      <button draggable="true" data-type="line">Line Chart</button>
+      <button draggable="true" data-type="icon">Icon</button>
+    </aside>
+
+    <section class="canvas-wrapper">
+      <div id="grid"></div>
+      <div id="canvas" tabindex="0"></div>
+    </section>
+
+    <aside class="properties">
+      <h3>Properties</h3>
+      <div id="props">
+        <p>Select an element</p>
+      </div>
+    </aside>
+
+  </main>
+
+  <footer>
+    Offline • Accessible • Zero Dependencies • Pure HTML/CSS/JS
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
