@@ -1,153 +1,59 @@
-🧩 Interactive Infographic Creator
+# Interactive Infographic Creator
 
-Drag-and-Drop Infographic Builder | Offline | Pure HTML, CSS & JavaScript
+A lightweight, **zero-dependency**, fully client-side tool to create, edit, and export infographics right in the browser.
 
-A fully client-side infographic creation tool that allows users to visually design, customize, and export interactive infographics using a clean drag-and-drop interface — built with zero frameworks and zero dependencies.
+Built with **pure HTML, CSS, and JavaScript** — no frameworks, no build tools, no backend.
 
-Designed to demonstrate advanced DOM manipulation, UI/UX engineering, and offline-first web architecture.
 
-🔗 Demo
 
-👉 Open index.html locally in any modern browser
-(No build tools, servers, or installs required)
+## Features
 
-✨ Features
-🎨 Visual Drag-and-Drop Editor
+- Drag-and-drop elements from the toolbar (Text, Bar Chart, Pie Chart, Line Chart, Icon)
+- Move, resize, and edit elements directly on the canvas
+- Real-time property editing (text content, background color, z-index)
+- Dark/light theme toggle
+- "AI Optimize" layout suggestion (simple client-side auto-arrangement & coloring)
+- Export canvas as PNG (using SVG → canvas conversion)
+- Grid background for precise alignment
+- Fully offline — works without internet after first load
+- Accessible and mobile-friendly layout (responsive sidebar/canvas)
 
-Drag elements directly from the toolbar
 
-Free-form positioning on a grid-based canvas
+### Light mode
+![Light mode](screenshots/light-mode.png)
 
-Move, select, and layer elements intuitively
+### Dark mode with elements
+![Dark mode](screenshots/dark-mode.png)
 
-Visual selection indicators
+### Properties panel in action
+![Properties panel](screenshots/properties.png)
 
-🧠 AI-Style Layout Optimization
+*(Add your own screenshots here — recommended sizes: ~800–1200px wide)*
 
-Automatically reorganizes element positions
+## Tech Stack
 
-Improves spacing and visual balance
+- HTML5
+- CSS3 (Custom properties + Flexbox + Grid)
+- Vanilla JavaScript (no libraries or frameworks)
+- Drag & Drop API
+- Canvas → SVG → PNG export trick
 
-Assigns harmonious background colors
+## How to Use
 
-Runs entirely client-side
+1. Clone or download the repository
+2. Open `index.html` in any modern browser (Chrome, Firefox, Edge, Safari)
+3. Drag elements from the left toolbar onto the canvas
+4. Click an element to select it → edit properties on the right panel
+5. Use buttons in the header:
+   - 🌙 Toggle theme
+   - AI Optimize → auto-arrange elements
+   - Export PNG → download current canvas
+   - Clear → reset canvas
 
-🧾 Properties Panel
+## License
 
-Live text editing
+MIT License — feel free to use, modify, and learn from this project.
 
-Background color customization
+Made with ❤️ as a fun, educational, zero-dependency experiment.
 
-Z-index (layer) control
-
-Context-aware property updates
-
-🌙 Light / Dark Mode
-
-One-click theme toggle
-
-CSS variable-based theming
-
-Smooth visual transitions
-
-📤 Export to PNG
-
-Converts the canvas into an image
-
-Uses SVG + Canvas rendering
-
-No backend or third-party libraries
-
-📴 Offline-First Architecture
-
-Fully functional without internet
-
-Single-file deployment
-
-Ideal for demos, teaching, and prototyping
-
-📸 Screenshots
-
-(Add your screenshots to a /screenshots folder and update paths below)
-
-Editor Interface
-
-Drag & Drop Elements
-
-Properties Panel
-
-Dark Mode
-
-Exported Infographic
-
-🛠️ Tech Stack
-Technology	Purpose
-HTML5	Application structure
-CSS3	Styling, themes, layout
-Vanilla JavaScript	State, drag-drop, export
-SVG + Canvas API	Image export
-📁 Project Structure
-/
-├── index.html
-├── screenshots/
-│   ├── editor.png
-│   ├── drag-drop.png
-│   ├── properties.png
-│   ├── dark-mode.png
-│   └── export.png
-
-
-Entire application logic, UI, and styles are contained in a single HTML file.
-
-🎯 Use Cases
-
-📊 Infographic prototyping
-
-🎨 Visual storytelling
-
-🧠 UX/UI demonstrations
-
-🎓 Academic projects
-
-🧑‍💻 Front-end portfolio showcase
-
-♿ Accessibility & UX
-
-Keyboard-focusable canvas
-
-Clear selection outlines
-
-High-contrast themes
-
-Minimal and intuitive controls
-
-🚀 Future Enhancements
-
-Resize handles for elements
-
-Real chart rendering (SVG / Canvas)
-
-Save & load projects (LocalStorage)
-
-Undo / Redo history
-
-Multi-select elements
-
-Export to PDF / SVG
-
-📄 License
-
-Open for learning, experimentation, and portfolio use.
-Feel free to extend and customize.
-
-👤 Author
-
-Built as a front-end system design project, showcasing:
-
-Advanced DOM manipulation
-
-Offline-first web apps
-
-UI/UX engineering
-
-Zero-dependency architecture
+Happy infographic making!
