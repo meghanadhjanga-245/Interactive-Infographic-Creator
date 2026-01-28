@@ -18,18 +18,7 @@ Built with **pure HTML, CSS, and JavaScript** — no frameworks, no build tools,
 - Fully offline — works without internet after first load
 - Accessible and mobile-friendly layout (responsive sidebar/canvas)
 
-
-### Light mode
-![Light mode](<img width="1910" height="994" alt="Screenshot 2026-01-29 020215" src="https://github.com/user-attachments/assets/c6a9640a-bc8a-438d-8916-160d6a75486b" />
-)
-
-### Dark mode with elements
-![Dark mode](screenshots/dark-mode.png)
-
-### Properties panel in action
-![Properties panel](screenshots/properties.png)
-
-*(Add your own screenshots here — recommended sizes: ~800–1200px wide)*
+  
 
 ## Tech Stack
 
